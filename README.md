@@ -28,7 +28,7 @@ let minha_data = new Date();
 
 Tente executar isso no [console do navegador](https://developers.google.com/web/tools/chrome-devtools/console?hl=pt-br#abrir_como_um_painel) e depois escreva o nome da variável, você vai receber uma informação bem completa do momento em que a variável foi criada.
 
-![Clock%202c4b18f0ca084809836d313ab1daa081/Untitled.png](Clock%202c4b18f0ca084809836d313ab1daa081/Untitled.png)
+![Clock%202c4b18f0ca084809836d313ab1daa081/Untitled.png](img/Untitled.png)
 
 Agora vamos usar as funções do JavaScript para acessar nossos dados de forma individual, nós queremos apenas a hora, os minutos e os segundos no relógio.
 
