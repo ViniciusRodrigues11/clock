@@ -127,4 +127,4 @@ function relogio() { // a função do relógio
 }
 ```
 
-### E o resultado final é este:  h[ttps://viniciusrodrigues11.github.io/clock/](https://viniciusrodrigues11.github.io/clock/)
+### E o resultado final é este:  [https://viniciusrodrigues11.github.io/clock/](https://viniciusrodrigues11.github.io/clock/)
