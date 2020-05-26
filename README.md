@@ -33,10 +33,10 @@ Tente executar isso no [console do navegador](https://developers.google.com/web/
 Agora vamos usar as funções do JavaScript para acessar nossos dados de forma individual, nós queremos apenas a hora, os minutos e os segundos no relógio.
 
 ```jsx
-	var d = new Date(); //cria nossa variavel de data
+  var d = new Date(); //cria nossa variavel de data
   var h = addZero(d.getHours()); //pegamos a hora
   var m = addZero(d.getMinutes()); //e os minutos
-	var s = addZero(d.getSeconds()); // e os segundos
+  var s = addZero(d.getSeconds()); // e os segundos
 ```
 
 Notou algo estranho? existe um addZero antes dos métodos que pegam nossos valores. Isso acontece pois o quando pedimos a hora, ao invés de 09 por exemplo teremos apenas 9. Pra ficar mais claro 09:05 seria retornado como 9:5 e isso fica bem estranho. Por isso temos a seguinte função:
@@ -73,7 +73,7 @@ function relogio() { // a função do relógio
 Essa é a parte mais fácil, o JavaScript oferece uma forma de executar uma função repetidamente com um intervalo de tempo pre-definido. O nome dessa função é **setInterval.** Tudo que temos a fazer agora é chamar esse método e colocar nossa função nele.
 
 ```jsx
-setInterval(relogio, 1000);
+   setInterval(relogio, 1000);
 
 // Isso vai fazer nosso relógio ser atualizado a cada 1000 milésimos de segundo, ou seja
 // a cada 1 segundo, que é o tempo que um relógio demora para atualizar.
