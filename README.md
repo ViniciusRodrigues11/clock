@@ -110,20 +110,19 @@ Nosso script completo fica assim:
 ```jsx
 setInterval(relogio, 1000);
 
-function addZero(i) { // uma função para adicionar o 0
+function addZero(i) {
   if (i < 10) {
     i = "0" + i;
   }
   return i;
 }
 
-function relogio() { // a função do relógio
+function relogio() {
   var d = new Date();
   var h = addZero(d.getHours());
   var m = addZero(d.getMinutes());
   var s = addZero(d.getSeconds());
-	// é aqui que a mágica acontece.
-	$('#timer').text(h + ":" + m + ":" + s);
+  $('#timer').text(h + ":" + m + ":" + s);
 }
 ```
 
